@@ -1,5 +1,3 @@
-# BERTによる自然言語処理入門：Transformersを使った実践プログラミング
-
 ## コード
 
 それぞれ、以下のリンクからColaboratoryでNotebookを開くことができます。
