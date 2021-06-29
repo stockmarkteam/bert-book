@@ -13,5 +13,6 @@
 | p41 | 参考文献[2] | NACACL -> NAACL |
 | p46 |  コードブロック #4-2 | BertJapanese-Tokenizer -> BertJapaneseTokenizer  |
 | p55 | 上から3行目 | 隠れ状態の次元は728 -> 隠れ状態の次元は768 |
+| p63 | 上から2行目 | predict_topk_mask -> predict_mask_topk |
 | p78 | 1段落の最終行 | 本項をを -> 本項を |
 | p107 | ページ下部のIREXの固有表現のカテゴリーのリスト | 「固有物名」が抜けていました。|
