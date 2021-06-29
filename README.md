@@ -5,7 +5,7 @@
 
 ## 誤植
 
-誤植は[こちら](https://github.com/stockmarkteam/bert-book/blob/master/CORRECTION.md)のページにまとめられています。
+誤植は[こちら](https://github.com/stockmarkteam/bert-book/blob/master/CORRECTION.md)のページにまとめられています。誤植を見つけられた方は、issueを立ててご連絡いただければ幸いです。
 
 ## コード
 
