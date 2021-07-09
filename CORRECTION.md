@@ -18,7 +18,7 @@
 | p53 | 出力例の下 | num_hidden_layer -> num_hidden_layers |
 | p53 | 出力例の下 | max_position_embedding -> max_position_embeddings |
 | p55 | 上から3行目 | 隠れ状態の次元は728 -> 隠れ状態の次元は768 |
-| p59 | コードブロック#5-5 下から4行目のコメント内 | iput_ids -> input_idx |
+| p59 | コードブロック#5-5 下から4行目のコメント内 | iput_ids -> input_ids |
 | p63 | 上から2行目 | predict_topk_mask -> predict_mask_topk |
 | p72 | コードブロック#6-5 下から6行目 | scores -> scoresのサイズ |
 | p73 | 出力例の上から3行目 | size -> scoresのサイズ |
@@ -31,7 +31,7 @@
 | p85 | 本文の下から2行目 | checkpoint.bert_model_path -> checkpoint.best_model_score |
 | p107 | ページ下部のIREXの固有表現のカテゴリーのリスト | 「固有物名」が抜けていました。|
 | p121| コードブロック#8-11の下から9行目 （この修正はコードの出力には影響を与えません。） | (\*\*encoding, return_dict=True) -> (\*\*encoding)|
-| p126| コードブロック#8-16の下から3行目 | (\*\*batch, return_dict=True) -> (\*\*batch)|
+| p126| コードブロック#8-16の下から4行目 | (\*\*batch, return_dict=True) -> (\*\*batch)|
 | p127| コードブロック#8-16の上から4行目 | (\*\*batch, return_dict=True) -> (\*\*batch)|
 | p129| コードブロック#8-17の下から14行目 | (\*\*encoding, return_dict=True) -> (\*\*encoding)|
 | p141| コードブロック#8-23の下から13行目 | (\*\*encoding, return_dict=True) -> (\*\*encoding)|
