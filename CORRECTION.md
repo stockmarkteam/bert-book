@@ -30,7 +30,8 @@
 | p85 | 上から4行目 | ModelCehckpoint -> ModelCheckpoint |
 | p85 | 本文の下から2行目 | checkpoint.bert_model_path -> checkpoint.best_model_score |
 | p107 | ページ下部のIREXの固有表現のカテゴリーのリスト | 「固有物名」が抜けていました。|
-| p121| コードブロック#8-11の下から9行目 （この修正はコードの出力には影響を与えません。） | (\*\*encoding, return_dict=True) -> (\*\*encoding)|
+| p121 | 本文最終段落中の2箇所と図8.2のキャプション| BertForToeknClassification -> BertForTokenClassification |
+| p121| コードブロック#8-11の下から9行目 （この修正はコードの動作には影響を与えません。） | (\*\*encoding, return_dict=True) -> (\*\*encoding)|
 | p126| コードブロック#8-16の下から4行目 | (\*\*batch, return_dict=True) -> (\*\*batch)|
 | p127| コードブロック#8-16の上から4行目 | (\*\*batch, return_dict=True) -> (\*\*batch)|
 | p129| コードブロック#8-17の下から14行目 | (\*\*encoding, return_dict=True) -> (\*\*encoding)|
