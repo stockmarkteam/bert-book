@@ -12,7 +12,7 @@
 | 5-5 | 下から4行目のコメント内 | iput_ids -> input_ids |
 | 6-5 | 下から6行目のコメント内 | scores -> scoresのサイズ |
 | 8-5 | p113の上から15,21,22行目、p114の下から14,15行目 | tokenizer -> self |
-| 8-11 | 下から9行目 （このままでも間違えではありませんが、`return_dict=True`は入れても入れなくても出力は同じなので、削除しました。） | (\*\*encoding, return_dict=True) -> (\*\*encoding)|
+| 8-11 | 下から9行目 （このままでも間違いではありませんが、`return_dict=True`は入れても入れなくても出力は同じなので、削除しました。） | (\*\*encoding, return_dict=True) -> (\*\*encoding)|
 | 8-16 | p126の下から3行目、p127の上から4行目 | (\*\*batch, return_dict=True) -> (\*\*batch)|
 | 8-17 | 上から14行目 | (\*\*encoding, return_dict=True) -> (\*\*encoding)|
 | 8-21 | p136の上から7,22,23行目、p137の下から13,14行目 | tokenizer -> self |
