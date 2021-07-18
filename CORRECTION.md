@@ -48,4 +48,5 @@
 | p85 | 本文の下から2行目 | checkpoint.bert_model_path -> checkpoint.best_model_score |
 | p107 | ページ下部のIREXの固有表現のカテゴリーのリスト | 「固有物名」が抜けていました。|
 | p121 | 本文最終段落中の2箇所と図8.2のキャプション| BertForToeknClassification -> BertForTokenClassification |
+| p179 | A-1節の最終段落の下から2行目 | アルゴリズムをを -> アルゴリズムを |
 
