@@ -33,6 +33,7 @@
 | p27 | 上から2行目 | 式の先頭に -（マイナス）をつける。 |
 | p28 | 上から1行目 | 図2.6(a) -> 図2.6 |
 | p34 | 3.1.2項、最初の段落の3行目 | Scale -> Scaled |
+| p36 | 3.1.5項、上から2行目 | Layer Normalizatin -> Layer Normalization |
 | p37 | 下から1行目 | e^S_i -> e^P_i |
 | p41 | 参考文献[2] | NACACL -> NAACL |
 | p48 | コードブロック#4-4の出力の直後の文 | マシーンラーニング -> マシンラーニング |
@@ -48,6 +49,7 @@
 | p84 | 上から2行目 | train_step -> training_step |
 | p85 | 上から4行目 | ModelCehckpoint -> ModelCheckpoint |
 | p85 | 本文の下から2行目 | checkpoint.bert_model_path -> checkpoint.best_model_score |
+| p92 | 下から3行目 | 選択肢ない -> 選択しない |
 | p107 | ページ下部のIREXの固有表現のカテゴリーのリスト | 「固有物名」が抜けていました。|
 | p121 | 本文最終段落中の2箇所と図8.2のキャプション| BertForToeknClassification -> BertForTokenClassification |
 | p179 | A-1節の最終段落の下から2行目 | アルゴリズムをを -> アルゴリズムを |
