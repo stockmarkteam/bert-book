@@ -56,5 +56,6 @@
 | p92 | 下から3行目 | 選択肢ない -> 選択しない |  |
 | p107 | ページ下部のIREXの固有表現のカテゴリーのリスト | 「固有物名」が抜けていました。| 第3刷 |
 | p121 | 本文最終段落中の2箇所と図8.2のキャプション| BertForToeknClassification -> BertForTokenClassification | 第3刷 |
+| p118 | 3行目 | 「Tencent Holdings Limited」 -> 「Tencent Holdings Ltd」 | 第1刷 |
+| p128 | 15行目 | 〜再現率は下がってしまします。 -> 〜再現率は下がってしまいます。 | 第1刷 |
 | p179 | A-1節の最終段落の下から2行目 | アルゴリズムをを -> アルゴリズムを | 第3刷 |
-
