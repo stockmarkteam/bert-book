@@ -55,6 +55,9 @@
 | p85 | 本文の下から2行目 | checkpoint.bert_model_path -> checkpoint.best_model_score | 第3刷 |
 | p92 | 下から3行目 | 選択肢ない -> 選択しない |  |
 | p107 | ページ下部のIREXの固有表現のカテゴリーのリスト | 「固有物名」が抜けていました。| 第3刷 |
+| p117 | 例文 | Ltdだ。 -> Ltdである。 |  |
+| p118 | 上から3行目 | 「Tencent Holdings Limited」 -> 「Tencent Holdings Ltd」 |  |
 | p121 | 本文最終段落中の2箇所と図8.2のキャプション| BertForToeknClassification -> BertForTokenClassification | 第3刷 |
+| p128 | 上から15行目 | 〜再現率は下がってしまします。 -> 〜再現率は下がってしまいます。 |  |
+| p132 | 上から2行目| この線は -> この例は |  |
 | p179 | A-1節の最終段落の下から2行目 | アルゴリズムをを -> アルゴリズムを | 第3刷 |
-
