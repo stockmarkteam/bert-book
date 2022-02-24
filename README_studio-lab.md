@@ -9,9 +9,9 @@
 ![SageMaker Studio のランディングページ](https://docs.aws.amazon.com/sagemaker/latest/dg/images/studio-lab-landing.png)
 
 ### Amazon SageMaker Studio Labを開始する
-Studio Lab を利用開始するためには、アカウントのリクエストと作成が必要です。アカウントのリクエスト手順は、
+Studio Lab を利用開始するためには、アカウントのリクエストと作成が必要です。アカウントのリクエストはこのように行います。
 
-1. [Studio Lab のランディングページ](https://studiolab.sagemaker.aws/) を開き、
+1. [Studio Lab のランディングページ](https://studiolab.sagemaker.aws/) を開きます。
 1. "Request free account" を選択します。
 1. メールアドレスなど必要な情報を記入します。
 1. "Submit request" ボタンを押します。
@@ -49,7 +49,7 @@ Studio Lab では JupyterLab のインターフェイスを拡張した UI が�
 こちらのボタンから Studio Lab で本書の Notebook を開くことができます。"Copy to project" を押し、JupyterLab に遷移した後に "Clone Entier Repo" を選択すると、この GitHub リポジトリ全体をクローンすることができます。
 なお、いずれかのNotebookの冒頭で 
 ```Python
-%pip install torch==1.9 matplotlib pandas tensorboard
+%pip install torch==1.9 matplotlib pandas 
 ``` 
 によりライブラリの追加インストールを行なってください。ここで、PyTorch は Studio Lab でサポートされている 1.9 を利用しました。Studio Lab の環境とカスタマイズについてはこちらの[ドキュメント (英語)](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-lab-use-manage.html) をご覧下さい。
 

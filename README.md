@@ -1,5 +1,7 @@
 # 「BERTによる自然言語処理入門: Transformersを使った実践プログラミング」
 
+[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter4.ipynb)
+
 こちらは、[「BERTによる自然言語処理入門: Transformersを使った実践プログラミング」、(編) ストックマーク株式会社、(著) 近江 崇宏、金田 健太郎、森長 誠 、江間見 亜利、（オーム社）](https://www.amazon.co.jp/dp/427422726X)のサポートページです。
 
 
@@ -39,7 +41,7 @@ https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Cha
 
 また、以下のリンクから[Amazon SageMaker Studio Lab](https://studiolab.sagemaker.aws/)でNotebookを開くことができます (事前の[メールアドレスによる登録](https://studiolab.sagemaker.aws/requestAccount)が必要です)。なお、いずれかのNotebookの冒頭で 
 ```Python
-%pip install torch==1.9.0 matplotlib pandas tensorboard
+%pip install torch==1.9 matplotlib pandas 
 ``` 
 によりライブラリの追加インストールを行なってください。Studio Lab の詳細は[こちら](./README_studio-lab.md)をご覧ください。
 
