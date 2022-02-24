@@ -35,3 +35,31 @@ https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Cha
 
 Chapter 10: 
 https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter10.ipynb
+
+
+また、以下のリンクから[Amazon SageMaker Studio Lab](https://studiolab.sagemaker.aws/)でNotebookを開くことができます (事前の[メールアドレスによる登録](https://studiolab.sagemaker.aws/requestAccount)が必要です)。なお、いずれかのNotebookの冒頭で 
+```Python
+%pip install torch==1.9.0 matplotlib pandas tensorboard
+``` 
+によりライブラリの追加インストールを行なってください。Studio Lab の詳細は[こちら](./README_studio-lab.md)をご覧ください。
+
+Chapter 4: 
+https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter4.ipynb
+
+Chapter 5: 
+https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter5.ipynb
+
+Chapter 6: 
+https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter6.ipynb
+
+Chapter 7: 
+https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter7.ipynb
+
+Chapter 8: 
+https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter8.ipynb
+
+Chapter 9: 
+https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter9.ipynb
+
+Chapter 10: 
+https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter10.ipynb
