@@ -49,7 +49,7 @@ Studio Lab では JupyterLab のインターフェイスを拡張した UI が�
 こちらのボタンから Studio Lab で本書の Notebook を開くことができます。"Copy to project" を押し、JupyterLab に遷移した後に "Clone Entier Repo" を選択すると、この GitHub リポジトリ全体をクローンすることができます。
 なお、いずれかのNotebookの冒頭で 
 ```Python
-%pip install torch==1.9 matplotlib pandas 
+%conda install pytorch==1.9 matplotlib pandas 
 ``` 
 によりライブラリの追加インストールを行なってください。ここで、PyTorch は Studio Lab でサポートされている 1.9 を利用しました。Studio Lab の環境とカスタマイズについてはこちらの[ドキュメント (英語)](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-lab-use-manage.html) をご覧下さい。
 

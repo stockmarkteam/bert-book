@@ -41,7 +41,7 @@ https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Cha
 
 また、以下のリンクから[Amazon SageMaker Studio Lab](https://studiolab.sagemaker.aws/)でNotebookを開くことができます (事前の[メールアドレスによる登録](https://studiolab.sagemaker.aws/requestAccount)が必要です)。なお、いずれかのNotebookの冒頭で 
 ```Python
-%pip install torch==1.9 matplotlib pandas 
+%conda install pytorch==1.9 matplotlib pandas 
 ``` 
 によりライブラリの追加インストールを行なってください。Studio Lab の詳細は[こちら](./README_studio-lab.md)をご覧ください。
 
