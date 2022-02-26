@@ -1,7 +1,5 @@
 # 「BERTによる自然言語処理入門: Transformersを使った実践プログラミング」
 
-[![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter4.ipynb)
-
 こちらは、[「BERTによる自然言語処理入門: Transformersを使った実践プログラミング」、(編) ストックマーク株式会社、(著) 近江 崇宏、金田 健太郎、森長 誠 、江間見 亜利、（オーム社）](https://www.amazon.co.jp/dp/427422726X)のサポートページです。
 
 
@@ -15,53 +13,23 @@
 
 ## コード
 
-それぞれ、以下のリンクからColaboratoryでNotebookを開くことができます。
+本書は、Googleの無料の計算環境である[Colaboratory](https://colab.research.google.com/)を利用して、コードを実行することを想定していますが、AWSの無料の計算環境である[Amazon SageMaker Studio Lab](https://studiolab.sagemaker.aws/)を利用することもできます(事前の[メールアドレスによる登録](https://studiolab.sagemaker.aws/requestAccount)が必要です)。Colaboratoryの基本的な使い方は本書の付録を、SageMaker Studio Labの使い方は[こちら](./README_studio-lab.md)をご覧ください。
 
-Chapter 4: 
-https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter4.ipynb
+以下のボタンから、それぞれの計算環境で各章のNotebookを開くことができます。
 
-Chapter 5: 
-https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter5.ipynb
-
-Chapter 6: 
-https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter6.ipynb
-
-Chapter 7: 
-https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter7.ipynb
-
-Chapter 8: 
-https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter8.ipynb
-
-Chapter 9: 
-https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter9.ipynb
-
-Chapter 10: 
-https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter10.ipynb
+|Chapter| Google Colaboratory | Amazon SageMaker Studio Lab |
+|:---:|:---:|:---:|
+|4| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter4.ipynb) |  [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter4.ipynb) |
+|5| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter5.ipynb) |  [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter5.ipynb) |
+|6| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter6.ipynb) |  [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter6.ipynb) |
+|7| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter7.ipynb) |  [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter7.ipynb) |
+|8| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter8.ipynb) |  [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter8.ipynb) |
+|9| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter9.ipynb) |  [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter9.ipynb) |
+|10| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stockmarkteam/bert-book/blob/master/Chapter10.ipynb) |  [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter10.ipynb) |
 
 
-また、以下のリンクから[Amazon SageMaker Studio Lab](https://studiolab.sagemaker.aws/)でNotebookを開くことができます (事前の[メールアドレスによる登録](https://studiolab.sagemaker.aws/requestAccount)が必要です)。なお、いずれかのNotebookの冒頭で 
+なおSageMaker Studio Labを用いる場合には、いずれかのNotebookの冒頭で 
 ```Python
 %conda install pytorch==1.9 matplotlib pandas 
 ``` 
-によりライブラリの追加インストールを行なってください。Studio Lab の詳細は[こちら](./README_studio-lab.md)をご覧ください。
-
-Chapter 4: 
-https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter4.ipynb
-
-Chapter 5: 
-https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter5.ipynb
-
-Chapter 6: 
-https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter6.ipynb
-
-Chapter 7: 
-https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter7.ipynb
-
-Chapter 8: 
-https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter8.ipynb
-
-Chapter 9: 
-https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter9.ipynb
-
-Chapter 10: 
-https://studiolab.sagemaker.aws/import/github/stockmarkteam/bert-book/blob/master/Chapter10.ipynb
+によりライブラリの追加インストールを行なってください。
