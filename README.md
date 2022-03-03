@@ -30,6 +30,6 @@
 
 なおSageMaker Studio Labを用いる場合には、いずれかのNotebookの冒頭で 
 ```Python
-%conda install pytorch==1.9 matplotlib pandas 
+!pip install torch==1.9 matplotlib pandas 
 ``` 
 によりライブラリの追加インストールを行なってください。
