@@ -46,6 +46,7 @@
 | p53 | 出力例の下 | num_hidden_layer -> num_hidden_layers | 第3刷 |
 | p53 | 出力例の下 | max_position_embedding -> max_position_embeddings | 第3刷 |
 | p55 | 上から3行目 | 隠れ状態の次元は728 -> 隠れ状態の次元は768 | 第3刷 |
+| p58 | 上から2行目 | なにかを予測する」というというタスク -> なにかを予測する」というタスク | |
 | p63 | 上から2行目 | predict_topk_mask -> predict_mask_topk | 第3刷 |
 | p73 | 出力例の上から3行目 | size -> scoresのサイズ | 第3刷 |
 | p78 | 1段落の最終行 | 本項をを -> 本項を | 第3刷 |
