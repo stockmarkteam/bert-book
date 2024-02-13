@@ -9,7 +9,9 @@
 
 ## エラー
 
-コードブロック#6-3, #7-3, #8-3, #9-3で生じるエラーに関しては[こちら](https://github.com/stockmarkteam/bert-book/wiki/pytorch_lightning%E3%81%AEimport%E6%99%82%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)をご確認ください。現在、GitHubで公開されているノートブックファイルではこの対応が既に反映されています。
+- 本書では東北大学が開発した事前学習済みのBERTを利用していますが、Hugging Face Hubでのモデルの保存場所が変更されたことに伴い、一部のコードを変更する必要があります。現在、GitHubで公開されているノートブックファイルではこの対応が既に反映されています。詳しくは[こちら](https://github.com/stockmarkteam/bert-book/wiki/%E6%9D%B1%E5%8C%97%E5%A4%A7BERT%E3%81%AE%E5%90%8D%E5%89%8D%E3%81%AE%E5%A4%89%E6%9B%B4)をご覧ください。
+
+- コードブロック#6-3, #7-3, #8-3, #9-3で生じるエラーに関しては[こちら](https://github.com/stockmarkteam/bert-book/wiki/pytorch_lightning%E3%81%AEimport%E6%99%82%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)をご確認ください。現在、GitHubで公開されているノートブックファイルではこの対応が既に反映されています。
 
 ## コード
 
